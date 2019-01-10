@@ -10,9 +10,18 @@
 }
 header{
     background-color: black;
-    height: 80vh;
+    height: 44vh;
+    display: flex;
+    align-items: center;
 }
 
+section{
+    margin-top: 45px;
+}
+.header-title_contrasct{
+    color: #5BCBB2;
+}
+/* 
 .icon-nav{
     height: 30px;
 }
@@ -27,23 +36,28 @@ nav > ul {
 
 .navbar{
     padding: 13px;
-}
+} */
+
 a{
     text-decoration: none;
-    color: white;
-}
+    
+} 
 
+
+nav{
+    display: none;
+}
 .container-header{
     width: 70%;
     margin: 0 auto;
 }
 
-.header-title{
+/* .header-title{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 30vh;
-}
+} */
 
 .banner{
     border-top: 2px solid white;
@@ -52,21 +66,19 @@ a{
 }
 .banner-border{
     border: 1px solid white;   
-     width: 27vw;
-    margin: 0 auto;
-    margin-left: 4;
-    margin-left: 5.3rem;
+     width: 32vw;
 }
 .banner > h1 {
     color: white;
-    font-size: 4rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
+    text-align: center;
 }
 .banner > h3 {
     color: white;
     display: flex;
     justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -114,6 +126,7 @@ h4{
     padding-left: 10px;
     padding-right: 10px;
     margin-top: 3vh;
+    font-size: 0.9rem;
 }
 
 .link-sites{
@@ -174,6 +187,15 @@ figure{
     margin-top: 4vh;
 }
 
+.skill-img{
+    width: 90px;
+}
+
+
+
+.pc{
+    width: 119px;
+}
 .formscontact{
     background-color: #000000;
 }
