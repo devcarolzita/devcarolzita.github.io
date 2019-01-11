@@ -214,14 +214,25 @@ margin: 10px 0 10px 0;
 input{
     background-color: black;
     border: 2px solid white;
-    height: 9vh;
+    padding: 10px;
+    color: white;
     width: 67vw;
     margin-top: 5vh;
 
+}
+
+footer{
+    text-align: center;
+    margin-top: 2vh;
 }
 
 .btn-forms{
     margin-left: 48px;
     width: 171px;
     background-color: black;
+}
+
+.footer-img{
+    width: 10%;
+    
 }
