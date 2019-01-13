@@ -264,3 +264,48 @@ footer{
     width: 8%;
     
 }
+
+@media(min-width:768px){
+
+    
+
+    .menu-header{
+        display: none;
+    }
+
+    .navbar-none{
+        display: flex;
+        width: 100%;
+    }
+
+    nav > ul {
+        width: 40%;
+        height: 10vh;
+        align-items: center;
+        background-color: black;
+    }
+    header{
+        height: 80vh;
+    }
+
+    .banner > h1 {
+        font-size: 3.5rem;
+    }
+
+    .banner > h3 {
+        font-size: 1.5rem;
+    }
+
+    .container-header{
+        margin-top: 140px;
+        width: 54%;
+    }
+
+    .img-sites{
+        height: 50vh;
+    }
+    h4{
+        width: 78%;
+        font-size: 1.2rem;
+    }
+}
