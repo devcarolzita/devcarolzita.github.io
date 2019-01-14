@@ -308,4 +308,8 @@ footer{
         width: 78%;
         font-size: 1.2rem;
     }
+
+    .Portifolio-title > h4 {
+        text-align: center;
+    }
 }
