@@ -265,8 +265,19 @@ footer{
     
 }
 
+.textarea-form{
+    background-color: black;
+border: 2px solid white;
+padding: 10px;
+color: white;
+width: 67vw;
+margin-top: 5vh;}
 
 @media(min-width:768px){
+
+    .textarea-form{
+        width: 35vw;
+    }
 
     h4{
         text-align: center;
@@ -350,11 +361,5 @@ footer{
     }
 
       
-    .textarea-form{
-        background-color: black;
-    border: 2px solid white;
-    padding: 10px;
-    color: white;
-    width: 35vw;
-    margin-top: 5vh;
+   
 }
