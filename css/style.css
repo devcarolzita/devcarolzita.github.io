@@ -348,4 +348,13 @@ footer{
         margin-top: 20px;
         margin-bottom: 3px;
     }
+
+      
+    .textarea-form{
+        background-color: black;
+    border: 2px solid white;
+    padding: 10px;
+    color: white;
+    width: 35vw;
+    margin-top: 5vh;
 }
