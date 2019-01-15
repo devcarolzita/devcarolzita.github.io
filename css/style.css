@@ -207,7 +207,7 @@ figure{
 .skill-icons{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-top: 4vh;
 }
 
@@ -325,6 +325,7 @@ footer{
     }
 
     .skill-group > h3 {
+        margin: 10px;
         text-align: center;
     }
 
@@ -340,5 +341,11 @@ footer{
     }
     input{
         width: 35vw;
+    }
+    
+    .footer-img{
+        width: 3%;
+        margin-top: 20px;
+        margin-bottom: 3px;
     }
 }
