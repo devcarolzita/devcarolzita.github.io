@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instalação loja teste </title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Estilo clique e veja resultados -->
+    <style type="text/css">
+        .trustvox-widget-rating .ts-shelf-container,
+        .trustvox-widget-rating .trustvox-shelf-container {
+            display: inline-block;
+        }
+
+        .trustvox-widget-rating span.rating-click-here {
+            top: -3px;
+            display: inline-block;
+            position: relative;
+            color: #DAA81D;
+        }
+
+        .trustvox-widget-rating:hover span.rating-click-here {
+            text-decoration: underline;
+        }
+        /* <!-- --> */
+    </style>
+    <!-- Script do Widget Principal -->
+    <script type="text/javascript">
+        window._trustvox = [];
+        //Identificador da loja fornecido pela Trustvox
+        _trustvox.push(['_storeId', '1']);
+        //Identificador do produto fornecido pela loja
+        _trustvox.push(['_productId', "123"]);
+        //Nome do produto fornecido pela loja
+        _trustvox.push(['_productName', "Camisa Polo Nike Sportswear PQ Matchup - Masculina"]);
+        //Imagem do produto fornecido pela loja
+        _trustvox.push(['_productPhotos', ["https://imgcentauro-a.akamaihd.net/600x600/91771101A4/camisa-polo-nike-sportswear-pq-matchup-masculina-img.jpg"]]); 
+    </script>
+    <script async="true" type="text/javascript" src="//static.trustvox.com.br/assets/widget.js"></script>
+    <!-- -->
+</head>
+<body>
+    <main>
+        <div class="produto">
+            <h2 class="">Seção bonés</h2>
+            <h4 class="produto_title">Boné aba reta</h4>
+            <img class="produto_img" src="Legalize-Boné-Legalize-Aba-Reta-Preto-9379-9233842-1-zoom.jpg" alt="">
+            <!-- 'Clique e veja'. Identificador do produto deve ser fornecido em 'data-trustvox-product-code' -->
+            <a class="trustvox-fluid-jump trustvox-widget-rating" href="#trustvox-reviews" title="Pergunte e veja opiniões de quem já comprou">
+                <div class="trustvox-shelf-container" data-trustvox-product-code-js="123"
+                    data-trustvox-should-skip-filter="true" data-trustvox-display-rate-schema="true"></div><span class="rating-click-here">Clique
+                    e veja!</span>
+            </a>
+            <!-- -->
+            <h3>Descrição</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus quo cupiditate aliquam cum!
+                Eveniet minus eius minima natus ut enim debitis dicta recusandae aliquam? Explicabo consequatur
+                accusamus et quisquam praesentium.</p>
+            <h4>Pergunte e veja opiniões de quem já comprou</h4>
+
+            <!-- Div responsável por carregar o Widget Principal -->
+            <div id="trustvox-reviews">
+                <div id="_trustvox_widget"></div>
+            </div>
+            <!-- -->
+            <!-- Script do Widget de Estrelas -->
+            <script type="text/javascript">
+                var _trustvox_shelf_rate = _trustvox_shelf_rate || [];
+                _trustvox_shelf_rate.push(['_storeId', '1']); // Identificador da loja
+            </script>
+            <script type="text/javascript" async="true" src="//rate.trustvox.com.br/widget.js"></script>
+            <!-- -->
+        </div>
+    </main>
+</body>
+
+</html>
